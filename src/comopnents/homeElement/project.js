@@ -1,18 +1,18 @@
 import React from 'react'
-import Container from '../reuseablecomponent/container'
-import Button from '../reuseablecomponent/button'
 import Image from 'next/image'
 import { p_data } from '../data/project'
+import Reusebtn from '../reuseablecomponent/button'
+import Fixedcontainer from '../reuseablecomponent/container'
 
 function Project() {
   return (
     <section id='project'>
-        <Container>
+        <Fixedcontainer>
           <div className='p-elements'>
             <div className='p-left-part'>
               <h3>I <span>Run</span>  Agency <span>Smartly</span> With My <span>Team</span> Member.</h3>
               <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look.</p>
-              <Button>Say hello</Button>
+              <Reusebtn>Say hello</Reusebtn>
             </div>
             <div className='p-right-part'>
               {
@@ -30,7 +30,7 @@ function Project() {
               }
             </div>
           </div>
-        </Container>
+        </Fixedcontainer>
     </section>
   )
 }

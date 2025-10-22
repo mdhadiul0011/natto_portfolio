@@ -1,11 +1,11 @@
 import React from 'react'
-import Container from '../reuseablecomponent/container'
 import { FaLocationArrow } from "react-icons/fa6";
+import Fixedcontainer from '../reuseablecomponent/container';
 
 function Subscribe() {
   return (
     <section className='subs_part'>
-      <Container>
+      <Fixedcontainer>
         <div className='subs_elements'>
             <div className='subs_text'>
                 <h3>Subscirbe to Our Newsletter</h3>
@@ -20,7 +20,7 @@ function Subscribe() {
                 </div>
             </div>
         </div>
-      </Container>
+      </Fixedcontainer>
     </section >
   )
 }

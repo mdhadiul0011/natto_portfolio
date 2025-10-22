@@ -1,20 +1,16 @@
 import React from 'react'
-import Container from '../reuseablecomponent/container'
 import { GoArrowUpRight } from "react-icons/go";
 import { PiGlobeSimpleLight } from "react-icons/pi";
 import { FaBehance } from "react-icons/fa";
 import { MdMarkEmailRead } from "react-icons/md";
 import Image from 'next/image';
-import hero_img from "../../../public/assets/images/hero-img.png"
-import hero_img2 from "../../../public/assets/images/Ellipse 6.png"
-import hero_img3 from "../../../public/assets/images/Ellipse 4.png"
-import hero_img4 from "../../../public/assets/images/Frame.png"
-import hero_img5 from "../../../public/assets/images/Object.png"
+import heropic from "../../../public/assets/images/hero-img.png"
+import Fixedcontainer from '../reuseablecomponent/container';
 
 export default function Hero() {
   return (
     <section className='hero_part'>
-        <Container>
+        <Fixedcontainer>
            <div className='hero_elements'>
                 <div className='hero_left'>
                     <div className='hero_left_text'>
@@ -34,14 +30,10 @@ export default function Hero() {
                     </div>
                 </div>
                 <div className='hero_right'>
-                    <Image src={hero_img} className='hero-img' alt='hero-img'/>
-                    {/* <Image src={hero_img2} className='hero-img-bg' alt='hero-img'/>
-                    <Image src={hero_img3} className='hero-img-bg2' alt='hero-img'/>
-                    <Image src={hero_img4} className='hero-img-bg3' alt='hero-img'/>
-                    <Image src={hero_img5} className='hero-img-bg4' alt='hero-img'/> */}
+                    <Image src={heropic} className='hero-img' alt='hero-img'/>
                 </div>
            </div>
-        </Container>
+        </Fixedcontainer>
     </section>
   )
 }

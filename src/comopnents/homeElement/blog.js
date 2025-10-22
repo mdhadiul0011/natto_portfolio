@@ -1,15 +1,15 @@
 'use client'
 import React from 'react'
-import Container from '../reuseablecomponent/container'
-import blog_1 from "../../../public/assets/images/blog-1.png"
-import blog_2 from "../../../public/assets/images/blog-2.png"
-import blog_3 from "../../../public/assets/images/blog-3.png"
-import blog_4 from "../../../public/assets/images/blog-4.png"
+import blog_one from "../../../public/assets/images/blog-1.png"
+import blog_two from "../../../public/assets/images/blog-2.png"
+import blog_three from "../../../public/assets/images/blog-3.png"
+import blog_four from "../../../public/assets/images/blog-4.png"
 import Image from 'next/image'
 import { SlCalender } from "react-icons/sl";
 import Slider from "react-slick";
 import SampleNextArrow from '../reuseablecomponent/nextarrow'
 import SamplePrevArrow from '../reuseablecomponent/prevarrow'
+import Fixedcontainer from '../reuseablecomponent/container'
 
 function Blog() {
      var settings = {
@@ -60,7 +60,7 @@ function Blog() {
 
   return (
     <div className='blog'>
-        <Container>
+        <Fixedcontainer>
             <div className='blog-elements'>
                 <div className='b_headline'>
                     <h3>Latest Blog</h3>
@@ -69,25 +69,25 @@ function Blog() {
                 <div className='b_box'>
                     <Slider {...settings}>
                         <div className='box_item'>
-                            <Image src={blog_1} alt='blog-img' className='blg_img' priority={true}/>
+                            <Image src={blog_one} alt='blog-img' className='blg_img' priority={true}/>
                             <span><SlCalender /> 10 January 2023 </span>
                             <h3>Bitcoin and Economic Freedom</h3>
                             <a href='#'>Read More</a>
                         </div> 
                         <div className='box_item'>
-                            <Image src={blog_2} alt='blog-img' className='blg_img' priority={true}/>
+                            <Image src={blog_two} alt='blog-img' className='blg_img' priority={true}/>
                             <span><SlCalender /> 10 January 2023 </span>
                             <h3>Permalink to New World Wide Payment</h3>
                             <a href='#'>Read More</a>
                         </div> 
                         <div className='box_item'>
-                            <Image src={blog_3} alt='blog-img' className='blg_img' priority={true}/>
+                            <Image src={blog_three} alt='blog-img' className='blg_img' priority={true}/>
                             <span><SlCalender /> 10 January 2023 </span>
                             <h3>Exchange Rate ofBitcoin system</h3>
                             <a href='#'>Read More</a>
                         </div> 
                         <div className='box_item'>
-                            <Image src={blog_4} alt='blog-img' className='blg_img' priority={true}/>
+                            <Image src={blog_four} alt='blog-img' className='blg_img' priority={true}/>
                             <span><SlCalender /> 10 January 2023 </span>
                             <h3>Bitcoin and Economic Freedom</h3>
                             <a href='#'>Read More</a>
@@ -95,7 +95,7 @@ function Blog() {
                     </Slider>
                 </div>
             </div>
-        </Container>
+        </Fixedcontainer>
     </div>
   )
 }

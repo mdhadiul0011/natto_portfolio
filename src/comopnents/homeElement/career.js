@@ -1,16 +1,16 @@
 'use client'
 import React from 'react'
-import Container from '../reuseablecomponent/container'
 import career_img from "../../../public/assets/images/man.png"
 import Image from 'next/image'
 import Button from '../reuseablecomponent/button'
 import { IoMdCheckmark } from "react-icons/io";
 import CountUp from 'react-countup'
+import Fixedcontainer from '../reuseablecomponent/container'
 
 function Career() {
   return (
     <section id='careers'>
-        <Container>
+        <Fixedcontainer>
             <div className='careers-element'>
                 <div className='c_left_part'>
                     <Image src={career_img} alt='career-img' className='c_img'/>
@@ -48,7 +48,7 @@ function Career() {
                     </div>
                 </div>
             </div>
-        </Container>
+        </Fixedcontainer>
     </section>
   )
 }

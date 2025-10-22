@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Button({children}) {
+function Reusebtn({children}) {
   return (
     <div>
       <button className='reuse_btn'>{children}</button>
@@ -8,4 +8,4 @@ function Button({children}) {
   )
 }
 
-export default Button
+export default Reusebtn

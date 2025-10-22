@@ -1,5 +1,4 @@
 import React from 'react'
-import Container from '../reuseablecomponent/container'
 import Image from 'next/image'
 import f_logo from '../../../public/assets/images/Group 1000004908.png'
 import Link from 'next/link'
@@ -9,11 +8,12 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaPinterestP } from "react-icons/fa6";
 import { F_resources_data, F_service_data } from '../data/footerdata'
+import Fixedcontainer from '../reuseablecomponent/container'
 
 function Footer() {
   return (
     <div id='footer'>
-      <Container>
+      <Fixedcontainer>
         <div className='f-elements'>
             <div className='f-item'>
                 <Link href='#'>
@@ -69,9 +69,9 @@ function Footer() {
                 </div>
             </div>
         </div>
-      </Container>
+      </Fixedcontainer>
       <div className='copyright-part'>
-        <Container>
+        <Fixedcontainer>
             <div className='copyright-element'>
                 <div>
                     <p>Copyright @All rights reserved</p>
@@ -91,7 +91,7 @@ function Footer() {
                         </div>
                     </div>
             </div>
-        </Container>
+        </Fixedcontainer>
       </div>
     </div>
   )

@@ -1,11 +1,11 @@
 "use client"
 import React, { useState } from 'react'
-import Container from '../reuseablecomponent/container'
 import WebDetails from '../service-element/webdtls'
 import GraphixDtls from '../service-element/graphixdtls'
 import Uiuxdtls from '../service-element/uiuxdesing'
 import WordpressDtls from '../service-element/wordpresdtls'
-import Button from '../reuseablecomponent/button'
+import Reusebtn from '../reuseablecomponent/button'
+import Fixedcontainer from '../reuseablecomponent/container'
 
 function Service() {
     const [item, setItem] = useState("")
@@ -17,7 +17,7 @@ function Service() {
     }
   return (
     <section id='service'>
-        <Container>
+        <Fixedcontainer>
             <div className='service_elements'>
                 <div className='s_head_item'>
                     <div className='s_headline'>
@@ -26,7 +26,7 @@ function Service() {
                     <div className='s_paragraph'>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised.</p>
                         {/* <button className='btn'>Download</button> */}
-                        <Button>Download</Button>
+                        <Reusebtn>Download</Reusebtn>
                     </div>
                 </div>
                 <div className='s_items'>
@@ -63,7 +63,7 @@ function Service() {
                     </div>
                 </div>
             </div>
-        </Container>
+        </Fixedcontainer>
     </section>
   )
 }
