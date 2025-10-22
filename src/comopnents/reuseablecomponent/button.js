@@ -3,7 +3,7 @@ import React from 'react'
 function Button({children}) {
   return (
     <div>
-      <button className='g-btn'>{children}</button>
+      <button className='reuse_btn'>{children}</button>
     </div>
   )
 }
