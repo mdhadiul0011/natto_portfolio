@@ -1,0 +1,27 @@
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .p_headline {
+        width: 100%;
+    }
+
+    .p_headline h3{
+        font-size: 32px;
+    }
+
+    .p_items {
+        width: 98% !important;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 575.98px) {
+    .p_headline {
+        width: 100%;
+    }
+
+    .p_headline h3{
+        font-size: 28px;
+    }
+
+    .p_items {
+        width: 100% !important;
+    }
+}

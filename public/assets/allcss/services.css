@@ -1,0 +1,157 @@
+#service{
+    margin-bottom: 100px;
+}
+
+.s_head_item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.s_head_item .s_headline {
+    width: 700px;
+}
+
+.s_head_item .s_headline h3 {
+    font-family: var(--fontfamily);
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--darkcolor);
+    width: 500px;
+}
+
+.s_head_item .s_headline h3 span{
+    color: var(--primarycolor);
+}
+
+.s_head_item .s_paragraph {
+    width: 500px;
+}
+
+.s_head_item .s_paragraph p {
+    font-family: var(--fontfamily);
+    color: var(--thirdcolor);
+    font-size: 18px;
+    font-weight: 400;
+    border-left: 2px solid var(--primarycolor);
+    padding-left: 20px;
+}
+
+.s_items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.s_element_box {
+    margin-top: 50px;
+    width: 620px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box-item {
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 1px solid var(--thirdcolor);
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.box-item:hover {
+    border: 1px solid var(--whitecolor);
+    box-shadow: -2px 3px 10px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 3px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 3px 10px 0px rgba(0,0,0,0.75);
+}
+
+.box-item h3 {
+    font-family: var(--fontfamily);
+    color: var(--darkcolor);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.box-item p {
+    font-family: var(--fontfamily);
+    color: var(--thirdcolor);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.active-box-item {
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 1px solid var(--primarycolor);
+    background: var(--primarycolor);
+    cursor: pointer;
+}
+
+.active-box-item h3 {
+    font-family: var(--fontfamily);
+    color: var(--whitecolor);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.active-box-item p {
+    font-family: var(--fontfamily);
+    color: var(--whitecolor);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.s_elements_dtls {
+    width: 580px;
+}
+
+.webdtls {
+    margin-top: 80px;
+    width: 500px;
+    padding-left: 20px;
+}
+
+.webdtls h3 {
+    font-family: var(--fontfamily);
+    color: var(--darkcolor);
+    font-size: 32px;
+    font-weight: 700;
+    width: 330px;
+    margin-bottom: 25px;
+}
+
+.webdtls h3 span{
+    color: var(--primarycolor);
+}
+
+.webdtls p {
+    font-family: var(--fontfamily);
+    color: var(--thirdcolor);
+    font-size: 18px;
+    font-weight: 400;
+    width: 330px;
+}
+
+.webdtls .webdtls_btn {
+    margin-top: 25px;
+    padding: 12px 32px;
+    border: 1px solid var(--primarycolor);
+    background: var(--whitecolor);
+    border-radius: 8px;
+    color: var(--primarycolor);
+    font-family: var(--fontfamily);
+    font-size: 18px;
+    font-weight: 400;
+    transition: all .4s ease;
+
+}
+
+.webdtls .webdtls_btn:hover {
+    background: var(--primarycolor);
+    color: var(--whitecolor);
+}

@@ -1,0 +1,150 @@
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .s_head_item .s_headline {
+        width: 500px;
+    }
+
+    .s_items {
+        flex-wrap: nowrap;
+    }
+
+    .s_elements_dtls {
+        width: 450px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #service {
+        overflow-x: hidden;
+    }
+    
+    .s_head_item .s_headline {
+        width: 400px;
+    }
+
+    .s_head_item .s_paragraph {
+        width: 400px;
+    }
+
+    .s_items {
+        flex-wrap: nowrap;
+    }
+
+    .s_elements_dtls {
+        width: 300px;
+    }
+
+    .webdtls h3 {
+        font-size: 22px;
+        width: 300px;
+    }
+
+    .webdtls p {
+        font-size: 16px;
+        width: 300px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .s_head_item .s_headline h3 {
+        font-size: 35px;
+    } 
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .s_head_item .s_headline h3 {
+        font-size: 30px;
+        width: 100%;
+    } 
+
+    .s_head_item .s_paragraph p {
+        margin: 15px 0;
+    }
+
+    .webdtls {
+        margin-top: 40px;
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .webdtls h3 {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 575.98px) {
+    #service{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .s_head_item .s_headline {
+        width: 100%;
+    }
+
+    .s_head_item .s_headline h3 {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .s_head_item .s_paragraph {
+        width: 100%;
+    }
+
+    .s_head_item .s_paragraph p {
+        font-size: 14px;
+    }
+
+    .s_element_box {
+        width: 100%;
+    }
+
+    .box-item {
+        width: 100%;
+    }
+
+    .box-item h3 {
+        font-size: 18px;
+    }
+
+    .box-item p {
+        font-size: 14px;
+    }
+
+    .active-box-item {
+        width: 100%;
+    }
+
+    .active-box-item h3 {
+        font-size: 18px;
+    }
+
+    .active-box-item p {
+        font-size: 14px;
+    }
+
+    .s_elements_dtls {
+        width: 100%;
+    }
+
+    .webdtls {
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+    .webdtls h3 {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .webdtls p {
+        font-size: 14px;
+        width: 250px;
+    }
+
+    .webdtls .webdtls_btn {
+        padding: 8px 32px;
+        font-size: 14px;
+    }
+}

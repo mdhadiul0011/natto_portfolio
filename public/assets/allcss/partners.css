@@ -1,0 +1,54 @@
+.partners-part {
+    margin-top: 100px;
+}
+
+.p_elements {
+    width: 100%;
+}
+
+.p_headline {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.p_headline h3{
+    font-family: var(--fontfamily);
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--darkcolor);
+}
+
+.p_items-box {
+    margin-top: 60px;
+}
+
+.p_items {
+    width: 90% !important;
+    padding: 20px;
+    border: 1px solid var(--footercolor);
+    text-align: center !important;
+}
+
+.p_items h3 {
+    margin-top: 18px;
+    font-family: var(--fontfamily);
+    color: var(--darkcolor);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.p_img {
+    width: 90px !important;
+    height: 70px !important;
+    margin: 0 auto;
+}
+
+.slick-prev:before, .slick-next:before {
+    display: none !important;
+}
+
+
+.slick-next{
+    display: none !important;
+}

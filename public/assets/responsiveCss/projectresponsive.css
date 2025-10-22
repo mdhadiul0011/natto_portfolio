@@ -1,0 +1,137 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .p-left-part {
+        width: 45%;
+    }
+
+    .p-left-part h3{
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .p-left-part p{
+        width: 100%;
+    }
+
+    .p-right-part {
+        width: 55%;
+    }
+
+    .p-right-elements {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .p-elements {
+        display: block;
+        margin-top: 40px;
+    }
+
+    .p-left-part {
+        width: 100%;
+        margin-top: 0 !important;
+    }
+
+    .p-left-part h3{
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .p-right-part {
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    .p-elements {
+        display: block;
+        margin-top: 40px;
+    }
+
+    .p-left-part {
+        width: 100%;
+        margin-top: 0 !important;
+    }
+
+    .p-left-part h3{
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .p-right-part {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .p-right-elements {
+        width: 100%;
+    }
+
+    .p-right-elements:hover {
+        margin-left: 0;
+    }
+
+    .p-text h3{
+        font-size: 22px;
+    }
+
+    .p-text p{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 575.98px){
+  .p-elements {
+        display: block;
+    }
+
+  .p-left-part {
+    width: 100%;
+    margin-top: 0 !important;
+    }
+
+    .p-left-part h3{
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .p-left-part p{
+        font-size: 14px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .p-right-part {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .p-right-elements {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .p-right-elements:hover {
+        margin-left: 0;
+    }
+
+    .p-icon {
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .p-text {
+        width: 100%;
+    }
+
+    .p-text h3{
+        font-size: 18px;
+    }
+
+    .p-text p{
+        font-size: 14px;
+    }
+}
+

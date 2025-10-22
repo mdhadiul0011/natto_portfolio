@@ -1,0 +1,73 @@
+:root {
+  --primarycolor: #6344C6;
+  --secondarycolor: #404040;
+  --thirdcolor: #626262;
+  --whitecolor: #fff;
+  --footercolor: #EEEBF2;
+  --darkcolor: #313131;
+  --fontfamily: "DM Sans", sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+ol, ul{
+  list-style-type: none;
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+a{
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+/* -------------primary css end-------------- */
+
+
+/* bootstrap css */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* reuseable component css */
+@import '../../../public/assets/allcss/container.css';
+@import '../../../public/assets/allCss/button.css';
+
+/* reuseable responsive component css */
+@import"../../../public/assets/responsiveCss/buttonresponsive.css";
+
+/* website element css */
+@import"../../../public/assets/allCss/navbar.css";
+@import"../../../public/assets/allCss/hero.css";
+@import"../../../public/assets/allCss/footer.css";
+@import"../../../public/assets/allCss/services.css";
+@import"../../../public/assets/allCss/project.css";
+@import"../../../public/assets/allCss/careers.css";
+@import"../../../public/assets/allCss/blog.css";
+@import"../../../public/assets/allCss/partners.css";
+@import"../../../public/assets/allCss/subscribe.css";
+
+/* responsive css */
+@import"../../../public/assets/responsiveCss/navresponsive.css";
+@import"../../../public/assets/responsiveCss/heroresponsive.css";
+@import"../../../public/assets/responsiveCss/serviceresponsive.css";
+@import"../../../public/assets/responsiveCss/projectresponsive.css";
+@import"../../../public/assets/responsiveCss/careersresponsive.css";
+@import"../../../public/assets/responsiveCss/blogresponsive.css";
+@import"../../../public/assets/responsiveCss/partnerresponsive.css";
+@import"../../../public/assets/responsiveCss/subscriberesponsive.css";
+@import"../../../public/assets/responsiveCss/footerresponsive.css";
+
+/* carousel css */
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";

@@ -1,0 +1,28 @@
+import React from 'react'
+import Container from '../reuseablecomponent/container'
+import { FaLocationArrow } from "react-icons/fa6";
+
+function Subscribe() {
+  return (
+    <section className='subs_part'>
+      <Container>
+        <div className='subs_elements'>
+            <div className='subs_text'>
+                <h3>Subscirbe to Our Newsletter</h3>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+            </div>
+            <div className='subs_input'>
+                <div className='inputs'>
+                    <input type='text' placeholder='Email'/>
+                    <div className='send_icon'>
+                        <FaLocationArrow />
+                    </div>
+                </div>
+            </div>
+        </div>
+      </Container>
+    </section >
+  )
+}
+
+export default Subscribe

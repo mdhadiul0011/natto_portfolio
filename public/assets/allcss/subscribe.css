@@ -1,0 +1,68 @@
+.subs_part {
+    margin-top: 100px;
+}
+
+.subs_elements {
+    width: 100%;
+    padding: 30px;
+    background: var(--primarycolor);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.subs_text {
+    width: 35%;
+}
+
+.subs_text h3 {
+    font-family: var(--fontfamily);
+    color: var(--whitecolor);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.subs_text p {
+    font-family: var(--fontfamily);
+    color: var(--whitecolor);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.subs_input {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.inputs {
+    width: 80%;
+    background: var(--whitecolor);
+    padding: 8px 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs input {
+    width: 85%;
+    padding: 12px 30px 12px 15px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    color: var(--darkcolor);
+}
+
+.inputs .send_icon {
+    width: 15%;
+    background: var(--primarycolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    color: var(--whitecolor);
+    font-size: 22px;
+    cursor: pointer;
+}

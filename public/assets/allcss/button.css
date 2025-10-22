@@ -1,0 +1,12 @@
+.g-btn {
+  margin-top: 25px;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 8px;
+  background: var(--primarycolor);
+  color: var(--whitecolor);
+  font-family: var(--fontfamily);
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+}

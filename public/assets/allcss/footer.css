@@ -1,0 +1,146 @@
+#footer {
+    margin-top: 100px;
+    background: var(--footercolor);
+    padding: 90px 0 0 0;
+}
+
+.f-elements {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.f-item {
+    width: 330px;
+}
+
+.f-item:nth-child(2) {
+    width: 220px;
+}
+
+.f-item:nth-child(3) {
+    width: 220px;
+}
+
+.f-item p {
+    font-family: var(--fontfamily);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--thirdcolor);
+    margin-top: 40px;
+    padding-right: 30px;
+}
+
+.f-brand h3 {
+    font-family: var(--fontfamily);
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--darkcolor);
+    margin-bottom: 40px;
+}
+
+.f-brand p {
+    font-family: var(--fontfamily);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--thirdcolor);
+    margin-top: 10px;
+    transition: all .4s ease;
+}
+
+.f-brand p:hover {
+    padding-left: 5px;
+}
+
+.f_form {
+    width: 100%;
+    background: var(--whitecolor);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.f_input {
+    border: none;
+    width: 85%;
+    padding: 8px 0 8px 10px;
+}
+
+.input_icon_box {
+    background: var(--primarycolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    color: var(--whitecolor);
+    cursor: pointer;
+}
+
+.f-elements .f-item:last-child .f-brand p:hover {
+    padding-left: 0 !important;
+}
+
+.f_icons {
+    margin-top: 25px;
+    padding-right: 10px;
+    display: flex;
+}
+
+.f_icons .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondarycolor);
+    margin-right: 10px;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+.f_icons .icon:hover {
+    background: var(--primarycolor);
+    color: var(--whitecolor);
+}
+
+.copyright-part {
+    width: 100%;
+    padding: 8px 0;
+    background: var(--primarycolor);
+    margin-top: 40px;
+}
+
+.copyright-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright-element p{
+    font-family: var(--fontfamily);
+    color: #ccc;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.f_copy_icons {
+    padding-right: 10px;
+    display: flex;
+}
+
+.f_copy_icons .icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondarycolor);
+    margin-right: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}

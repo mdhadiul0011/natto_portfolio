@@ -1,0 +1,124 @@
+#careers {
+    margin-top: 100px;
+}
+
+.careers-element {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c_left_part {
+    width: 50%;
+    position: relative;
+}
+
+.c-left-text {
+    width: 240px;
+    height: 215px;
+    background: var(--primarycolor);
+    border: 15px solid var(--whitecolor);
+    padding: 20px;
+    text-align: center;
+    border-top-right-radius: 100px;
+    position: absolute;
+    bottom: -50px;
+    right: 70px;
+}
+
+.c-left-text h3{
+    font-family: var(--fontfamily);
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--whitecolor);
+}
+
+.c-left-text h3 span {
+    display: block;
+}
+
+.c-left-text p{
+    font-family: var(--fontfamily);
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--whitecolor);
+}
+
+.c_right_part {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.c_right_text {
+    width: 550px;
+}
+
+.c_right_text h3{
+    font-family: var(--fontfamily);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: auto;
+    color: var(--darkcolor);
+    margin-bottom: 25px;
+}
+
+.c_right_text span{
+    color: var(--primarycolor);
+}
+
+.c_right_text p{
+    font-family: var(--fontfamily);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: auto;
+    color: var(--thirdcolor);
+    margin-bottom: 25px;
+}
+
+
+.c_text_bold {
+    margin-top: 25px;
+}
+
+.c_text_bold p {
+    font-family: var(--fontfamily);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--thirdcolor);
+}
+
+.c_text_bold p span {
+    color: var(--thirdcolor);
+    padding-right: 10px;
+}
+
+.counter-part {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.item-one {
+    text-align: center;
+}
+
+.item-one .counter{
+    font-family: var(--fontfamily);
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--thirdcolor) !important;
+}
+
+.item-one p{
+    font-family: var(--fontfamily);
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--thirdcolor) !important;
+}
+
+.item-one h3 {
+    font-family: var(--fontfamily);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--thirdcolor) !important;
+    margin-top: 20px;
+}
